@@ -27,6 +27,94 @@ SOURCES = [
             ]
     },
     {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'ar',
+        'codepage': 'cp1256',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BArabic%5D%20%283.5-1.44mb%29.zip'
+            ]
+    },
+    {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'nl',
+        'codepage': 'cp850',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BDutch%5D%20%283.5-1.44mb%29.zip'
+            ]
+    },
+    {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'de',
+        'codepage': 'cp850',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BGerman%5D%20%283.5-1.44mb%29.zip'
+            ]
+    },
+    {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'fr',
+        'codepage': 'cp850',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BFrench%5D%20%283.5-1.44mb%29.zip'
+            ]
+    },
+    # { # ERROR: vgabios: unimplemented, biosfn_write_teletype:632
+    #     'type': 'windows',
+    #     'name': 'win31',
+    #     'short_name': 'win31',
+    #     'lang': 'el',
+    #     'codepage': 'cp1253',
+    #     'urls':
+    #         [
+    #             'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BGreek%5D%20%283.5-1.44mb%29.zip'
+    #         ]
+    # },
+    {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'he',
+        'codepage': 'cp1255',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BHebrew%5D%20%28Unpacked%29.zip'
+            ]
+    },
+    {
+        'type': 'windows',
+        'name': 'win31',
+        'short_name': 'win31',
+        'lang': 'ru',
+        'codepage': 'cp866',
+        'urls':
+            [
+                'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%5BRussian%5D%20%283.5-1.44mb%29.zip'
+            ]
+    },
+    # { # requires dosemu supportt for codepage 852
+    #     'type': 'windows',
+    #     'name': 'win31',
+    #     'short_name': 'win31',
+    #     'lang': 'uk',
+    #     'codepage': 'cp852',
+    #     'urls':
+    #         [
+    #             'https://archive.org/download/windows-3.1-disks/Microsoft%20Windows%203.1%20%283.10.104%29%20%28English%20for%20Central-Eastern%20Europe%29%20%281993%29%20%28Unpacked%29.zip'
+    #         ]
+    # },
+    {
         'type': 'integratableDriver',
         'name': 'w31drv-i33mouse',
         'short_name': 'mouse',

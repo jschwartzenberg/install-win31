@@ -3,6 +3,8 @@ unix -s dosemu-preinstallwin31
 if errorlevel 1 goto faildownload
 if exist %USERDRV%:\inst\win31\setup.exe %USERDRV%:\inst\win31\setup.exe /h:f:\win31\dosemu.shh
 if errorlevel 1 goto failwinsetup
+if exist %USERDRV%:\inst\win31\install.exe %USERDRV%:\inst\win31\install.exe /h:f:\win31\dosemu.shh
+if errorlevel 1 goto failwinsetup
 if exist %USERDRV%:\windows\nul path %PATH%;%USERDRV%:\windows
 echo Windows 3.1 was successfully installed.
 echo Type "win" and press enter to start Windows.
